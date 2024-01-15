@@ -2,7 +2,10 @@ import React from "react";
 import hot from '../../images/hot.PNG';
 import drum from '../../images/drum.PNG';
 import dice from '../../images/dice.PNG';
+import edu from '../../images/edu.PNG';
+import portfolio from '../../images/portfolio.PNG';
 import { Link } from 'react-router-dom';
+
 import './project.css'
 
 const Projects = () => {
@@ -47,6 +50,34 @@ const Projects = () => {
         </div>
 
 
+        <div className="blog">
+            <figure>
+            <Link to="https://shaikeducation.netlify.app/"  target="_blank">
+              <img src={edu} alt="normal one" />
+            </Link>
+            </figure>
+            <div className="blog-content">
+            <h3 class="section-common--title">SMM Education Website</h3>
+              <p className="blog-para"> 
+              Here you can learn latest trending Technologies and Courses efficiently,at anytime and anywhere.
+              </p>
+        </div>
+
+        <div className="blog">
+            <figure>
+            <Link to="https://shaikdev.netlify.app/"  target="_blank">
+              <img src={portfolio} alt="normal one" />
+            </Link>
+            </figure>
+            <div className="blog-content">
+            <h3 class="section-common--title">Personal Portfolio</h3>
+              <p className="blog-para"> 
+               This is Personal Portfolio website , where you can find My Projects , skills and Contact details 
+               you can reach me at anytime for any Query.
+              </p>
+            </div>
+              
+        </div>
 
         <div className="blog">
             <figure>
@@ -64,6 +95,8 @@ const Projects = () => {
         </div>
 
         
+              
+        </div>
 
         <div className="blog">
             <figure>

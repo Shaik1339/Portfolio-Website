@@ -32,7 +32,7 @@ const Footer = () => {
               <i class="fa-brands fa-instagram"></i>
               </Link>
 
-              <Link to="/" target="_blank" class="common-text--highlight">
+              <Link to="https://github.com/Shaik1339?tab=repositories" target="_blank" class="common-text--highlight">
               <i class="fa-brands fa-github fa"></i>
               </Link>
 
