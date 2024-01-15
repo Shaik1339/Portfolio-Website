@@ -1,0 +1,65 @@
+footer  .container{
+    max-width:80%;
+    height: auto;
+    margin: 0  auto;
+    padding:1rem 1rem;
+    color: white;
+    & .grid{
+        display: grid;
+    }
+   & .grid-two-cols{
+
+    grid-template-columns: repeat(2,1fr);
+   } 
+}
+
+    
+footer{
+    background-color:#272829;
+    
+}
+
+
+.fa-youtube{
+    font-size: 2rem;
+    color: red;
+}
+.fa-instagram{
+    font-size: 2rem;
+    color:pink;  
+}
+
+.fa-facebook{
+    font-size: 2rem;
+    color:blue;
+}
+
+.footer-2--div .fa-brands{
+    margin-right: 2rem;
+}
+
+.footer-2--div .fa-github{
+    font-size: 2rem;
+    color: white;
+}
+
+.footer-1--div{
+
+    & .foot-email{
+        display: flex;
+        flex-direction: row;
+    }
+    & .fa-envelope{
+     font-size: 2rem;
+     color:lightblue;
+    }
+    & .fa-phone{
+        font-size: 2rem;
+        color:lightblue;
+    }
+
+    & h1,h3{
+        color:#FAF3F0;
+    }
+
+}

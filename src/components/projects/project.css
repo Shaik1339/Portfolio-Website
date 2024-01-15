@@ -1,0 +1,74 @@
+
+.section-common-heading{
+    font-size: 3.7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+  }
+
+
+
+  .section-blog .container{
+    max-width:80%;
+    height: auto;
+    margin: 0  auto;
+    padding:2.5rem 1rem;
+}
+
+  .grid{
+
+    display: grid;
+
+  }
+
+  .grid-four--cols{
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 3rem;
+  }
+
+  .section-blog{
+
+    & .blog{
+        box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 0.3s linear;
+        height: 100%;
+    
+        &:hover{
+          scale: 1.2;
+        }
+
+        & img{
+            width: 100%;
+            height: auto;
+          }
+        
+      }
+
+
+
+  }
+
+ 
+  .section-common--title{
+    font-size: 1.8rem;
+    margin: 1.4rem 0 1rem 0;
+  }
+  
+  .blog-para{
+    font-size: 1.5rem;
+  }
+
+  .blog-content{
+
+    padding: 1rem;
+  }
+
+  @media (width < 940px){
+
+    .section-blog .grid-four--cols{
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    
+      }
+}

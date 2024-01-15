@@ -1,0 +1,101 @@
+.fa-html5 {
+  font-size: 10rem;
+  color: orange;
+}
+
+.fa-css3-alt {
+  font-size: 10rem;
+  color: blue;
+}
+
+.fa-js {
+  font-size: 10rem;
+  color: yellow;
+}
+.fa-bootstrap {
+  font-size: 10rem;
+  color: #864af9;
+}
+.fa-github {
+  font-size: 10rem;
+  color: black;
+}
+
+.fa-node {
+  font-size: 10rem;
+  color: green;
+}
+
+.fa-react {
+  font-size: 10rem;
+  color: #087ea4;
+}
+
+.fa-java {
+  font-size: 10rem;
+  color: red;
+}
+
+.fa-npm {
+  font-size: 10rem;
+  color: red;
+}
+
+/* real section*/
+
+.section-common-heading {
+  font-size: 3rem;
+  color: #332941;
+}
+
+.section-about .container {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2.8rem 1rem;
+}
+
+& .grid {
+  display: grid;
+}
+
+& .grid-five--cols {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+
+& .about-div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.5s linear;
+  text-align: center;
+
+
+  /* & .icon {
+    width: 100%;
+    padding: 0 auto;
+    
+  } */
+
+  /* & h3 {
+    padding: 0px;
+    margin: 0px;
+  } */
+
+  & img {
+    width: 3rem;
+  }
+}
+
+.mongo {
+  padding-top: 4rem;
+}
+
+@media (width < 940px) {
+  .section-about .grid-five--cols {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+.about-div:hover {
+  scale: 1.5;
+}
