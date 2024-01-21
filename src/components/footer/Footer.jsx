@@ -28,7 +28,7 @@ const Footer = () => {
               <Link to="/" target="_blank" class="common-text--highlight">
               <i class="fa-brands fa-youtube"></i>
               </Link>
-              <Link to="/" target="_blank" class="common-text--highlight">
+              <Link to="https://www.instagram.com/teddy_1339/" target="_blank" class="common-text--highlight">
               <i class="fa-brands fa-instagram"></i>
               </Link>
 
